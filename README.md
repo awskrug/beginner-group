@@ -6,10 +6,8 @@ AWSKRUG 초보자(Beginner) 모임이 새롭게 시작됩니다.<br/>
 이외에도 AWS를 사용하며 느꼈던 점들 혹은 자격증을 준비중이거나 이미 취득하신 분들의 후기등 자유로운 분위기를 통해 커뮤니티의 긍정적인 시너지를 기대합니다.<br/>
 AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 소모임관련 문의 혹은 질문은 #beginners 채널에 가입 후 남겨주시면 감사하겠습니다.<br/>
 
-[AWSKRUG Slack 바로가기](http://slack.awskr.org/)
-[AWSKRUG Meetup 바로가기](https://www.meetup.com/ko-KR/awskrug/)
-
-<br/><br/>
+[AWSKRUG Slack 바로가기](http://slack.awskr.org/)<br/>
+[AWSKRUG Meetup 바로가기](https://www.meetup.com/ko-KR/awskrug/)<br/>
 ## 비기너모임 발표내용 아카이브
 |날짜|세션내용|발표자료|
 |------|---|---|
