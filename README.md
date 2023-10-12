@@ -9,7 +9,8 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 [AWSKRUG Slack 바로가기](http://slack.awskr.org/)<br/>
 [AWSKRUG Meetup 바로가기](https://www.meetup.com/ko-KR/awskrug/)<br/>
 ## 비기너모임 발표내용 아카이브
-|날짜|세션내용|발표자료|
+### 2023-10-11
+|밋업링크|세션내용|발표자료|
 |------|---|---|
-|2023-10-11|세션 1 : 분산 시스템의 어려움부터 Kafka까지 톺아보기 - 윤종원님 (AUSG)|test|
-||세션 2 : 행동로그플랫폼 개발기(MSK와 EKS-Fargate) - 이한섭님 (밀리의서재)|test|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 1 : 분산 시스템의 어려움부터 Kafka까지 톺아보기 - 윤종원님 (AUSG)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 2 : 행동로그플랫폼 개발기(MSK와 EKS-Fargate) - 이한섭님 (밀리의서재)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
