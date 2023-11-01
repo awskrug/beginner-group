@@ -14,3 +14,7 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 |------|---|---|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 1 : 분산 시스템의 어려움부터 Kafka까지 톺아보기 - 윤종원님 (AUSG)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 2 : 행동로그플랫폼 개발기(MSK와 EKS-Fargate) - 이한섭님 (밀리의서재)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
+### 2023-11-01
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/awskrug/events/296716236/)|세션 1 : 2023 AWS CommunityDay 핸즈온대비 EKS Network 101 - 김진웅님 (AWS ProServ)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_1)|
