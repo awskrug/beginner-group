@@ -18,3 +18,9 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 |밋업링크|세션내용|발표자료|
 |------|---|---|
 |[Link](https://www.meetup.com/awskrug/events/296716236/)|세션 1 : 2023 AWS CommunityDay 핸즈온대비 EKS Network 101 - 김진웅님 (AWS ProServ)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_1)|
+### 2023-11-22
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 1 : EKS Basics & IRSA 권한관리 - 고병수님, 이수정님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 2 : Lambda Basics & 월간사용비용 SMS알람 - 이형주님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 3 : 커뮤니티를 위한 질문 플랫폼, AWS re:Post 소개 - 김아연님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22/)|
