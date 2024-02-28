@@ -9,18 +9,26 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 [AWSKRUG Slack 바로가기](http://slack.awskr.org/)<br/>
 [AWSKRUG Meetup 바로가기](https://www.meetup.com/ko-KR/awskrug/)<br/>
 ## 비기너모임 발표내용 아카이브
-### 2023-10-11
-|밋업링크|세션내용|발표자료|
-|------|---|---|
-|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 1 : 분산 시스템의 어려움부터 Kafka까지 톺아보기 - 윤종원님 (AUSG)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
-|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 2 : 행동로그플랫폼 개발기(MSK와 EKS-Fargate) - 이한섭님 (밀리의서재)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
-### 2023-11-01
-|밋업링크|세션내용|발표자료|
-|------|---|---|
-|[Link](https://www.meetup.com/awskrug/events/296716236/)|세션 1 : 2023 AWS CommunityDay 핸즈온대비 EKS Network 101 - 김진웅님 (AWS ProServ)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_1)|
-
 ### 2024-02-26
 |밋업링크|세션내용|발표자료|
 |------|---|---|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 1 : aws와 함께하는 부하테스트 입문 : 문성혁님 (모요)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/feb_26)|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 2 : 빠른 웹 개발을 위한 AWS Amplify 프론트엔드 기능 살펴보기 : 배진수님 (당근)|[***이후 추가 예정***](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/feb_26)|
+
+### 2023-11-22
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 1 : EKS Basics & IRSA 권한관리 - 고병수님, 이수정님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 2 : Lambda Basics & 월간사용비용 SMS알람 - 이형주님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/297395088/)|세션 3 : 커뮤니티를 위한 질문 플랫폼, AWS re:Post 소개 - 김아연님 (AWS)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_22/)| 
+
+### 2023-11-01
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/awskrug/events/296716236/)|세션 1 : 2023 AWS CommunityDay 핸즈온대비 EKS Network 101 - 김진웅님 (AWS ProServ)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/nov_1)|
+
+### 2023-10-11
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 1 : 분산 시스템의 어려움부터 Kafka까지 톺아보기 - 윤종원님 (AUSG)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/296202175/)|세션 2 : 행동로그플랫폼 개발기(MSK와 EKS-Fargate) - 이한섭님 (밀리의서재)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/oct_11)|
