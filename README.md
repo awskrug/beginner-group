@@ -13,7 +13,7 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 |밋업링크|세션내용|발표자료|
 |------|---|---|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 1 : aws와 함께하는 부하테스트 입문 : 문성혁님 (모요)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/feb_26)|
-|[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 2 : 빠른 웹 개발을 위한 AWS Amplify 프론트엔드 기능 살펴보기 : 배진수님 (당근)|[***이후 추가 예정***](https://github.com/awskrug/beginner-group/tree/main/meetup/2023/feb_26)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 2 : 빠른 웹 개발을 위한 AWS Amplify 프론트엔드 기능 살펴보기 : 배진수님 (당근)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/feb_26)|
 
 ### 2023-11-22
 |밋업링크|세션내용|발표자료|
