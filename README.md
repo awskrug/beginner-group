@@ -12,6 +12,12 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 ### 2024-02-26
 |밋업링크|세션내용|발표자료|
 |------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/301170960/)|세션 1 : 서버리스를 여행하는 히치하이커를 위한 안내서 with SAM : 구경열님 (Ktown4u)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/jun_4)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/301170960/)|세션 2 : 기초 캐시 전략부터 알아보는 ElastiCache 입문 : 가동식님 (인하대학교)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/jun_4)|
+
+### 2024-02-26
+|밋업링크|세션내용|발표자료|
+|------|---|---|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 1 : aws와 함께하는 부하테스트 입문 : 문성혁님 (모요)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/feb_26)|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/299304520/)|세션 2 : 빠른 웹 개발을 위한 AWS Amplify 프론트엔드 기능 살펴보기 : 배진수님 (당근)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/feb_26)|
 
