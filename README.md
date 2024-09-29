@@ -9,7 +9,14 @@ AWSKRUG Slack 가입은 slack.awskr.org을 통해 부탁드리며, 밋업 및 �
 [AWSKRUG Slack 바로가기](http://slack.awskr.org/)<br/>
 [AWSKRUG Meetup 바로가기](https://www.meetup.com/ko-KR/awskrug/)<br/>
 ## 비기너모임 발표내용 아카이브
-### 2024-02-26
+### 2024-10-27
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/303224793/)|세션 1 : 팀 간 경계를 허물고, 효율적이고 안전한 개발 환경 제공하기 : 이한섭님 (밀리의서재)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/sep_27)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/303224793/)|세션 2 : AWS를 이용한 서버 배포 한 번에 이해하기 : 김수진님 (AUSG)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/sep_27)|
+
+
+### 2024-06-04
 |밋업링크|세션내용|발표자료|
 |------|---|---|
 |[Link](https://www.meetup.com/ko-KR/awskrug/events/301170960/)|세션 1 : 서버리스를 여행하는 히치하이커를 위한 안내서 with SAM : 구경열님 (Ktown4u)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/jun_4)|
