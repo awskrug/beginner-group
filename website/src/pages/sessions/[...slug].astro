@@ -1,0 +1,47 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import FormattedDate from "@components/FormattedDate.astro";
+import BackToPrev from "@components/BackToPrev.astro";
+
+import "@utils/polyfilsResolver.ts";
+
+export async function getStaticPaths() {
+  const sessions = (await getCollection("sessions"))
+    .filter((post) => !post.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return sessions.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"sessions">;
+
+const session = Astro.props;
+const { Content } = await session.render();
+
+const baseUrl = import.meta.env.BASE_URL;
+---
+
+<PageLayout title={session.data.title} description={session.data.description}>
+  <Container>
+    <div class="animate">
+      <BackToPrev href={baseUrl}> Back </BackToPrev>
+    </div>
+    <div class="animate space-y-1 my-10">
+      <div class="font-base text-sm">
+        <FormattedDate date={session.data.date} />
+      </div>
+      <h1 class="text-2xl font-semibold">
+        {session.data.title}
+      </h1>
+      <h2>
+        {session.data.speaker}
+      </h2>
+    </div>
+    <article class="animate">
+      <Content />
+    </article>
+  </Container>
+</PageLayout>

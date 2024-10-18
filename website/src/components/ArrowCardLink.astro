@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+type Props = {
+  title: string;
+  href: string;
+  image?: ImageMetadata;
+};
+
+const { title, href, image } = Astro.props;
+---
+
+<a
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="relative group flex flex-nowrap flex-1 py-3 px-4 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-zinc-900 dark:hover:text-white transition-colors duration-300 ease-in-out">
+  <div class="flex items-center w-full">
+    {image && <Image src={image} alt="" class="w-4 h-4 mr-2" />}
+    <div class="font-semibold flex-1">{title}</div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="size-4">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+      ></path>
+    </svg>
+  </div>
+</a>

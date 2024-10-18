@@ -1,0 +1,14 @@
+---
+title: "유저 행동 로그 플랫폼 개발기"
+description: ""
+date: "10/11/2023"
+speaker: "이한섭 | 밀리의서재"
+---
+
+import PDFViewer from "@/components/PDFViewer.tsx";
+
+import pdf from "./presentation.pdf";
+
+<div class="w-full">
+  <PDFViewer file={pdf} client:only="react" />
+</div>
