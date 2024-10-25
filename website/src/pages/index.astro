@@ -31,7 +31,9 @@ const sessions = data.reduce((acc: Acc, session) => {
   return acc;
 }, {});
 
-const dates = Object.keys(sessions).sort((a, b) => parseInt(b) - parseInt(a));
+const dates = Object.keys(sessions).sort(
+  (a, b) => Number.parseInt(b) - Number.parseInt(a),
+);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
