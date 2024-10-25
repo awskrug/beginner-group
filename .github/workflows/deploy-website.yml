@@ -1,0 +1,52 @@
+name: pnpm Example Workflow
+
+on:
+  push:
+    paths:
+      - "website/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        node-version: [22]
+    env:
+      working-directory: ./website
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          package_json_file: ${{ env.working-directory }}/package.json
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+
+      - name: Install dependencies
+        working-directory: ${{ env.working-directory }}
+        run: pnpm install
+
+      - name: Build the project
+        working-directory: ${{ env.working-directory }}
+        run: pnpm run build
+
+      - name: Deploy to target repository
+        working-directory: ${{ env.working-directory }}
+        run: |
+          git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/awskrug/website-homepage.git target_repo
+          rm -rf target_repo/groups/beginners/*
+          cp -r dist/* target_repo/groups/beginners/
+          cd target_repo
+          git config user.name "${{ github.event.head_commit.author.name }}"
+          git config user.email "${{ github.event.head_commit.author.email }}"
+          git add groups/beginners/*
+          git commit -m "[Beginners] ${{ github.event.head_commit.message }}"
+          git push
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
