@@ -13,15 +13,15 @@ const baseUrl = import.meta.env.BASE_URL;
 <a
   href={`${baseUrl}/${entry.collection}/${entry.slug}`}
   class="relative group flex flex-nowrap py-3 px-4 pr-10 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-zinc-900 dark:hover:text-white transition-colors duration-300 ease-in-out">
-  <div class="flex flex-col flex-1 truncate">
+  <div class="flex flex-col flex-1">
     <div class="font-semibold">
       {entry.data.title}
     </div>
     <article>
-      <div class="text-sm">
+      <div class="text-sm mt-1 flex-wrap">
         {entry.data.description}
       </div>
-      <div class="text-sm">
+      <div class="text-sm mt-3">
         {entry.data.speaker}
       </div>
     </article>

@@ -6,7 +6,7 @@ import { SITE } from "@consts";
 
 type Props = {
   title: string;
-  description: string;
+  description?: string;
 };
 
 const { title, description } = Astro.props;
@@ -14,7 +14,7 @@ const formattedTitle = title ? `${title} | ${SITE.NAME}` : SITE.NAME;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <Head title={formattedTitle} description={description} />
   </head>

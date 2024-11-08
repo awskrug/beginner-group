@@ -29,19 +29,38 @@ const baseUrl = import.meta.env.BASE_URL;
     <div class="animate">
       <BackToPrev href={baseUrl}> Back </BackToPrev>
     </div>
-    <div class="animate space-y-1 my-10">
+    <article class="animate mt-10">
+      <Content />
+    </article>
+
+    <div class="animate mt-10">
       <div class="font-base text-sm">
         <FormattedDate date={session.data.date} />
       </div>
-      <h1 class="text-2xl font-semibold">
+      <h1 class="text-2xl mt-1 font-semibold">
         {session.data.title}
       </h1>
-      <h2>
-        {session.data.speaker}
-      </h2>
+      {
+        session.data.description && (
+          <p class="mt-2 text-zinc-600 dark:text-zinc-400">
+            {session.data.description}
+          </p>
+        )
+      }
+      <div class="flex items-center mt-4">
+        {
+          session.data.speakerImageURL && (
+            <img
+              src={session.data.speakerImageURL}
+              alt=""
+              class="rounded-full w-12 h-12 mr-4"
+            />
+          )
+        }
+        <p>
+          {session.data.speaker}
+        </p>
+      </div>
     </div>
-    <article class="animate">
-      <Content />
-    </article>
   </Container>
 </PageLayout>
