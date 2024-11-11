@@ -12,6 +12,11 @@
 비기너 모임에 대해 문의사항이 있다면, AWSKRUG 슬랙의 #beginners 채널에 남겨주시기 바랍니다. 감사합니다!
 
 ## 지난 발표 자료
+### 2024-11-06
+|밋업링크|세션내용|발표자료|
+|------|---|---|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/304245849/)|세션 1 : Plunk로 Amazon SES 누구보다 쉽게 사용하기 : 배진수님 (당근)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/nov_6)|
+|[Link](https://www.meetup.com/ko-KR/awskrug/events/304245849/)|세션 2 : Eventbridge와 Bedrock으로 구현하는 알람봇 만들기 : 구경열님 (ktown4u)|[Link](https://github.com/awskrug/beginner-group/tree/main/meetup/2024/nov_6)|
 ### 2024-10-27
 |밋업링크|세션내용|발표자료|
 |------|---|---|
