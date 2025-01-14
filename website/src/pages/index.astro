@@ -1,14 +1,18 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import ArrowCardLink from "@components/ArrowCardLink.astro";
 import { HOME } from "@consts";
-import type { CollectionEntry } from "astro:content";
 
 import SlackSVG from "@images/slack.svg";
 import MeetUpSVG from "@images/meetup.svg";
+import Main01 from "@images/main01.jpg";
+import Main02 from "@images/main02.jpg";
+import Main03 from "@images/main03.jpg";
 
 const data = (await getCollection("sessions"))
   .filter((session) => !session.data.draft)
@@ -51,6 +55,12 @@ const dates = Object.keys(sessions).sort(
             함께 다양한 AWS 서비스들을 알아보며, 궁금한 점을 질문하는 방식의 자유로운
             네트워킹을 지향하고 있습니다.
           </p>
+
+          <div class="flex items-center h-48 space-x-4">
+            <Image src={Main01} alt="" class="object-cover h-full rounded-md" />
+            <Image src={Main02} alt="" class="object-cover h-full rounded-md" />
+            <Image src={Main03} alt="" class="object-cover h-full rounded-md" />
+          </div>
 
           <p>
             <b class="font-semibold">
