@@ -1,13 +1,13 @@
-import mdx from "@astrojs/mdx";
-import react from "@astrojs/react";
-import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
 // @ts-check
 import { defineConfig } from "astro/config";
+import mdx from "@astrojs/mdx";
+import sitemap from "@astrojs/sitemap";
+import tailwind from "@astrojs/tailwind";
+import react from "@astrojs/react";
 
-import { createRequire } from "node:module";
 // For react-pdf cMap
 import path from "node:path";
+import { createRequire } from "node:module";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 
 const require = createRequire(import.meta.url);

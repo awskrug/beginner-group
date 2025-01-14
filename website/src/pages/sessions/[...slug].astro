@@ -1,20 +1,20 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import BackToPrev from "@components/BackToPrev.astro";
+import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import FormattedDate from "@components/FormattedDate.astro";
-import PageLayout from "@layouts/PageLayout.astro";
+import BackToPrev from "@components/BackToPrev.astro";
 
 import "@utils/polyfilsResolver.ts";
 
 export async function getStaticPaths() {
-	const sessions = (await getCollection("sessions"))
-		.filter((post) => !post.data.draft)
-		.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-	return sessions.map((post) => ({
-		params: { slug: post.slug },
-		props: post,
-	}));
+  const sessions = (await getCollection("sessions"))
+    .filter((post) => !post.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return sessions.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
 }
 type Props = CollectionEntry<"sessions">;
 

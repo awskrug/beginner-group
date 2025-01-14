@@ -1,7 +1,7 @@
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
-import useResizeObserver from "@react-hook/resize-observer";
 import { useState } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+import useResizeObserver from "@react-hook/resize-observer";
+import { pdfjs, Document, Page } from "react-pdf";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";

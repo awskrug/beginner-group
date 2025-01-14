@@ -1,38 +1,38 @@
 ---
 import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import ArrowCardLink from "@components/ArrowCardLink.astro";
-import Container from "@components/Container.astro";
 import { HOME } from "@consts";
-import PageLayout from "@layouts/PageLayout.astro";
+import type { CollectionEntry } from "astro:content";
 
-import MeetUpSVG from "@images/meetup.svg";
 import SlackSVG from "@images/slack.svg";
+import MeetUpSVG from "@images/meetup.svg";
 
 const data = (await getCollection("sessions"))
-	.filter((session) => !session.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .filter((session) => !session.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 type Acc = {
-	[date: string]: CollectionEntry<"sessions">[];
+  [date: string]: CollectionEntry<"sessions">[];
 };
 
 const sessions = data.reduce((acc: Acc, session) => {
-	const date = session.data.date.toLocaleDateString("ko-KR", {
-		month: "short",
-		day: "numeric",
-		year: "numeric",
-	});
-	if (!acc[date]) {
-		acc[date] = [];
-	}
-	acc[date].push(session);
-	return acc;
+  const date = session.data.date.toLocaleDateString("ko-KR", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+  if (!acc[date]) {
+    acc[date] = [];
+  }
+  acc[date].push(session);
+  return acc;
 }, {});
 
 const dates = Object.keys(sessions).sort(
-	(a, b) => Number.parseInt(b) - Number.parseInt(a),
+  (a, b) => Number.parseInt(b) - Number.parseInt(a),
 );
 ---
 
