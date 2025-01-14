@@ -15,23 +15,23 @@ const pdfjsDistPath = path.dirname(require.resolve("pdfjs-dist/package.json"));
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.awskr.org",
-  base: "/groups/beginners",
-  build: {
-    assets: "astro",
-  },
-  integrations: [mdx(), sitemap(), tailwind(), react()],
-  vite: {
-    plugins: [
-      viteStaticCopy({
-        targets: [
-          {
-            src: path.join(pdfjsDistPath, "cmaps"),
-            dest: "",
-          },
-        ],
-      }),
-    ],
-  },
-  output: "static",
+	site: "https://www.awskr.org",
+	base: "/groups/beginners",
+	build: {
+		assets: "astro",
+	},
+	integrations: [mdx(), sitemap(), tailwind(), react()],
+	vite: {
+		plugins: [
+			viteStaticCopy({
+				targets: [
+					{
+						src: path.join(pdfjsDistPath, "cmaps"),
+						dest: "",
+					},
+				],
+			}),
+		],
+	},
+	output: "static",
 });

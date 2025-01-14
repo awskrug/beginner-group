@@ -41,7 +41,7 @@ const dates = Object.keys(sessions).sort(
     <h1 class="animate font-semibold text-2xl mt-8">AWSKRUG Beginner 소모임</h1>
     <div class="space-y-16">
       <section class="animate">
-        <article class="space-y-4">
+        <article>
           <p>
             <b class="font-semibold">
               비기너 소모임은 AWS를 처음 (혹은 이제 막) 접하는 개발자, 엔지니어,
@@ -60,7 +60,24 @@ const dates = Object.keys(sessions).sort(
             AWS를 사용하면서 모르는 것들, 궁금한 것들, 공유하고 싶은 것들을 자유롭게
             남겨주세요! 비기너 모임에 문의하고 싶은 것들도 슬랙 채널에 올려주시면
             답변해드리겠습니다.
+            <b class="font-semibold">
+              아직 AWSKRUG 슬랙에 가입하지 않으셨다면, 초대 페이지를 통해
+              가입해주세요.
+            </b>
           </p>
+
+          <div class="-mt-2.5 flex items-center space-x-4">
+            <ArrowCardLink
+              title="AWSKRUG 슬랙 #beginner 채널 바로가기"
+              href="https://awskrug.slack.com/archives/C360U952L"
+              image={SlackSVG}
+            />
+            <ArrowCardLink
+              title="AWSKRUG 슬랙 초대 페이지"
+              href="https://slack.awskr.org/"
+              image={SlackSVG}
+            />
+          </div>
 
           <p>
             <b class="font-semibold">
@@ -70,12 +87,7 @@ const dates = Object.keys(sessions).sort(
             비기너 소모임 외에도 다른 소모임의 세션들도 있으니, 한 번 둘러보세요!
           </p>
 
-          <div class="flex space-x-6">
-            <ArrowCardLink
-              title="AWSKRUG 슬랙 #beginner 채널 바로가기"
-              href="https://awskrug.slack.com/archives/C360U952L"
-              image={SlackSVG}
-            />
+          <div class="-mt-2.5">
             <ArrowCardLink
               title="AWSKRUG Meetup 페이지 바로가기"
               href="https://www.meetup.com/ko-KR/awskrug"
@@ -89,6 +101,10 @@ const dates = Object.keys(sessions).sort(
         <article class="space-y-4">
           <h2 class="font-semibold text-2xl">Next Meetup</h2>
           <p>
+            다음 세션은 2025년 2월 말 또는 3월 초에 열릴 예정입니다. 많은 관심
+            부탁드립니다!
+          </p>
+          <!-- <p>
             다음 세션은 <b class="font-semibold">1월 8일 수요일</b>에 아래
             주제로 진행됩니다.
           </p>
@@ -112,6 +128,7 @@ const dates = Object.keys(sessions).sort(
             href="https://www.meetup.com/ko-KR/awskrug/events/305223632/?slug=awskrug&eventId=304245849"
             image={MeetUpSVG}
           />
+        -->
         </article>
       </section>
 

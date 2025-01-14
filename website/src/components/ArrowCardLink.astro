@@ -15,7 +15,7 @@ const { title, href, image } = Astro.props;
   href={href}
   target="_blank"
   rel="noopener noreferrer"
-  class="relative group flex flex-nowrap flex-1 py-3 px-4 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-zinc-900 dark:hover:text-white transition-colors duration-300 ease-in-out">
+  class="relative group flex flex-nowrap flex-1 py-3 px-4 border rounded-lg border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-zinc-900 dark:hover:text-white transition-colors duration-300 ease-in-out">
   <div class="flex items-center w-full">
     {image && <Image src={image} alt="" class="w-4 h-4 mr-2" />}
     <div class="font-semibold flex-1">{title}</div>
