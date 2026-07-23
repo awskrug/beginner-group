@@ -1,7 +1,11 @@
 import { useState } from "react";
 import useResizeObserver from "@react-hook/resize-observer";
 import { pdfjs, Document, Page } from "react-pdf";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
+import {
+	ArrowDownTrayIcon,
+	ChevronLeftIcon,
+	ChevronRightIcon,
+} from "@heroicons/react/24/solid";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
@@ -55,6 +59,17 @@ export default function PDFViewer({ file }: { file: File }) {
 
 			{numPages && numPages > 0 && (
 				<>
+					<div className="z-50 absolute top-4 right-4 md:top-6 md:right-6 flex items-center">
+						<a
+							href={file as unknown as string}
+							download="presentation.pdf"
+							title="발표 자료 다운로드"
+							className="p-1 md:p-2 bg-black/30 hover:bg-black/50 text-white rounded-full"
+						>
+							<ArrowDownTrayIcon className="w-5 h-5" />
+						</a>
+					</div>
+
 					<div className="z-50 absolute bottom-4 left-4 md:bottom-6 md:left-6 flex items-center">
 						<button
 							type="button"
